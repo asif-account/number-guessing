@@ -1,0 +1,29 @@
+{
+  "name": "number-guessing",
+  "version": "1.0.0",
+  "description": "Number Guessing Game in TypeScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ./dest/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asif-account/number-guessing.git"
+  },
+  "author": "Asif Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asif-account/number-guessing/issues"
+  },
+  "homepage": "https://github.com/asif-account/number-guessing#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
+}
